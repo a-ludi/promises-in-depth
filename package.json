@@ -1,0 +1,21 @@
+{
+  "name": "promises-in-depth",
+  "version": "v0.1.0",
+  "author": "Arne Ludwig <arne.ludwig@posteo.de>",
+  "license": "GPL-3.0+",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a-ludi/promises-in-depth"
+  },
+  "description": "This is instructional.",
+  "scripts": {
+    "debug": "nodemon --watch \"$(pwd)/*.*\" --debug index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bluebird": "~3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "~1.9.2"
+  }
+}
